@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 
+//dziedziczenie z głównego typu object
 namespace Stack
 {
     public class Stack
