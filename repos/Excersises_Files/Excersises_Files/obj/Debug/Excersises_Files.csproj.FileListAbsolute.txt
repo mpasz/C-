@@ -1,0 +1,7 @@
+C:\Users\Michal\source\repos\Excersises_Files\Excersises_Files\bin\Debug\Excersises_Files.exe.config
+C:\Users\Michal\source\repos\Excersises_Files\Excersises_Files\bin\Debug\Excersises_Files.exe
+C:\Users\Michal\source\repos\Excersises_Files\Excersises_Files\bin\Debug\Excersises_Files.pdb
+C:\Users\Michal\source\repos\Excersises_Files\Excersises_Files\obj\Debug\Excersises_Files.csproj.CoreCompileInputs.cache
+C:\Users\Michal\source\repos\Excersises_Files\Excersises_Files\obj\Debug\Excersises_Files.exe
+C:\Users\Michal\source\repos\Excersises_Files\Excersises_Files\obj\Debug\Excersises_Files.pdb
+C:\Users\Michal\source\repos\Excersises_Files\Excersises_Files\obj\Debug\Excersises_Files.csprojAssemblyReference.cache

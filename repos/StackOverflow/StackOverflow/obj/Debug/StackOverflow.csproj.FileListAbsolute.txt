@@ -1,0 +1,7 @@
+c:\users\michal\source\repos\StackOverflow\StackOverflow\bin\Debug\StackOverflow.exe.config
+c:\users\michal\source\repos\StackOverflow\StackOverflow\bin\Debug\StackOverflow.exe
+c:\users\michal\source\repos\StackOverflow\StackOverflow\bin\Debug\StackOverflow.pdb
+c:\users\michal\source\repos\StackOverflow\StackOverflow\obj\Debug\StackOverflow.csprojAssemblyReference.cache
+c:\users\michal\source\repos\StackOverflow\StackOverflow\obj\Debug\StackOverflow.csproj.CoreCompileInputs.cache
+c:\users\michal\source\repos\StackOverflow\StackOverflow\obj\Debug\StackOverflow.exe
+c:\users\michal\source\repos\StackOverflow\StackOverflow\obj\Debug\StackOverflow.pdb

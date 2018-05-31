@@ -1,0 +1,7 @@
+C:\Users\Michal\source\repos\Konstryktowy\Konstryktowy\obj\Debug\Konstryktowy.csprojAssemblyReference.cache
+C:\Users\Michal\source\repos\Konstryktowy\Konstryktowy\obj\Debug\Konstryktowy.csproj.CoreCompileInputs.cache
+C:\Users\Michal\source\repos\Konstryktowy\Konstryktowy\bin\Debug\Konstryktowy.exe.config
+C:\Users\Michal\source\repos\Konstryktowy\Konstryktowy\bin\Debug\Konstryktowy.exe
+C:\Users\Michal\source\repos\Konstryktowy\Konstryktowy\bin\Debug\Konstryktowy.pdb
+C:\Users\Michal\source\repos\Konstryktowy\Konstryktowy\obj\Debug\Konstryktowy.exe
+C:\Users\Michal\source\repos\Konstryktowy\Konstryktowy\obj\Debug\Konstryktowy.pdb

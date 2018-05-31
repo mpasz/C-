@@ -1,0 +1,6 @@
+C:\Users\Michal\source\repos\Constructors\Constructors\bin\Debug\Constructors.exe.config
+C:\Users\Michal\source\repos\Constructors\Constructors\bin\Debug\Constructors.exe
+C:\Users\Michal\source\repos\Constructors\Constructors\bin\Debug\Constructors.pdb
+C:\Users\Michal\source\repos\Constructors\Constructors\obj\Debug\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\Michal\source\repos\Constructors\Constructors\obj\Debug\Constructors.exe
+C:\Users\Michal\source\repos\Constructors\Constructors\obj\Debug\Constructors.pdb

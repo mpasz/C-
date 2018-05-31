@@ -1,0 +1,7 @@
+C:\Users\Michal\source\repos\WorkingWithFiles\WorkingWithFiles\bin\Debug\WorkingWithFiles.exe.config
+C:\Users\Michal\source\repos\WorkingWithFiles\WorkingWithFiles\bin\Debug\WorkingWithFiles.exe
+C:\Users\Michal\source\repos\WorkingWithFiles\WorkingWithFiles\bin\Debug\WorkingWithFiles.pdb
+C:\Users\Michal\source\repos\WorkingWithFiles\WorkingWithFiles\obj\Debug\WorkingWithFiles.csprojAssemblyReference.cache
+C:\Users\Michal\source\repos\WorkingWithFiles\WorkingWithFiles\obj\Debug\WorkingWithFiles.csproj.CoreCompileInputs.cache
+C:\Users\Michal\source\repos\WorkingWithFiles\WorkingWithFiles\obj\Debug\WorkingWithFiles.exe
+C:\Users\Michal\source\repos\WorkingWithFiles\WorkingWithFiles\obj\Debug\WorkingWithFiles.pdb

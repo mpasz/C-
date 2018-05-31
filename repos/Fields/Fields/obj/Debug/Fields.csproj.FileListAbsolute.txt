@@ -1,0 +1,6 @@
+C:\Users\Michal\source\repos\Fields\Fields\obj\Debug\Fields.csproj.CoreCompileInputs.cache
+C:\Users\Michal\source\repos\Fields\Fields\bin\Debug\Fields.exe.config
+C:\Users\Michal\source\repos\Fields\Fields\bin\Debug\Fields.exe
+C:\Users\Michal\source\repos\Fields\Fields\bin\Debug\Fields.pdb
+C:\Users\Michal\source\repos\Fields\Fields\obj\Debug\Fields.exe
+C:\Users\Michal\source\repos\Fields\Fields\obj\Debug\Fields.pdb
