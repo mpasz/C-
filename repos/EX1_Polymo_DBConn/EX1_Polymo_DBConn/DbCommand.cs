@@ -1,32 +1,28 @@
 ﻿namespace Polymo_DBConn
 {
-    public class DbCommand : DbConnection
+    public class DbCommand 
     {
-        public DbCommand(string connectionString , string command) : base(connectionString)
+        public DbCommand(DbConnection connectionString, string command) 
         {
             if (System.String.IsNullOrWhiteSpace(command))
                 throw new System.NullReferenceException("Command can't be empty!");
 
-            SqlCommand = command;
+            _sqlCommand = command;
+            _connectionString = connectionString;
+            
         }
 
-        private string SqlCommand { get; set; }
+        private DbConnection _connectionString;
+        private string _sqlCommand;
+        
 
         public void Execute()
-        {
-            OpenConnection();
-            System.Console.WriteLine("Command Executed");
-            CloseConnection();
+        {          
+            _connectionString.OpenConnection();
+            System.Console.WriteLine("Command : "+_sqlCommand +" executed");
+            _connectionString.CloseConnection();
         }
 
-        public override void CloseConnection()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override void OpenConnection()
-        {
-            throw new System.NotImplementedException();
-        }
     }
+
 }

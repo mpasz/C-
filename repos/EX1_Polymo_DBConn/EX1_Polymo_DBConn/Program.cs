@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,15 +11,19 @@ namespace Polymo_DBConn
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Give my details for connect to Oracle:  ");
-            OracleConnection oracleConnection = new OracleConnection(System.Console.ReadLine());
-            oracleConnection.OpenConnection();
-            oracleConnection.CloseConnection();
+            Console.WriteLine("Give my details to connect:   ");
+            var cs = Console.ReadLine();
+            var command = @"Select * from tableA";
 
-            System.Console.WriteLine("Give my details for connect to SQL:  ");
-            SqlConnection sqlConnection = new SqlConnection(System.Console.ReadLine());
-            sqlConnection.OpenConnection();
-            sqlConnection.CloseConnection();
+
+            DbCommand SQldbCommand = new DbCommand(new SqlConnection(cs), command);
+            SQldbCommand.Execute();
+            
+
+            DbCommand OracaledbCommand = new DbCommand(new OracleConnection(cs), command);
+            OracaledbCommand.Execute();
+
+
 
         }
     }

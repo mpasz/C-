@@ -13,7 +13,7 @@
 
         public override void OpenConnection()
         {
-            System.Console.WriteLine("Oraacle connection is open.");
+            System.Console.WriteLine("Oracle connection is open.");
         }
     }
 }
