@@ -18,7 +18,7 @@ namespace Piramida
             Console.WriteLine("A z czego ma być zrobiona?");
             char znak = char.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ostatnie pytanie: normalna (1) czy odwrócona (2)?");
+            Console.WriteLine("Ostatnie pytanie: normalna(1) czy odwrócona(2) ?");
             string input = Console.ReadLine();
 
             switch (input.ToLower())
@@ -52,12 +52,12 @@ namespace Piramida
                         for (int rzad = ilosc; rzad > 0; rzad--)
                         {
 
-                            for (int przestrzen = rzad; przestrzen > 0 ; przestrzen--)
+                            for (int przestrzen = rzad; przestrzen < ilosc  ; przestrzen++)
                             {
                                 Console.Write(" ");
                             }
 
-                            for (int r = 0; r > (2 * rzad - 2); r--)
+                            for (int j = (2 * rzad - 1); j > 0 ; j--)
                             {
                                 Console.Write(znak);
                             }
