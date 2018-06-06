@@ -3,6 +3,6 @@
 
     public interface IPurchaseStatus
     {
-        void Execute(Status status);
+        void Execute();
     }
 }

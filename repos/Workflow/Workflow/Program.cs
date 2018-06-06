@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace Workflow
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
             var purchasePanel = new PurchasesPanel();
-            purchasePanel.RegisterOrderStatus(new PurchaseOrderRequest()); 
-            purchasePanel.RegisterOrderStatus(new PurchaseOrderStatus());
-           // purchasePanel.RegisterOrderStatus(new PurchaseRequestStatus());
-            
+            var orderWorkflow = new OrderWorkflow();
+            //purchasePanel.Run(new PurchaseOrderRequest()); 
+            //purchasePanel.Run(new PurchaseOrderStatus());
+            //purchasePanel.RegisterOrderStatus(new PurchaseRequestStatus());
 
-            purchasePanel.Panel(new Order());
+
+            purchasePanel.Run(orderWorkflow);
         }
     }
 }

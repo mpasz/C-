@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Order.cs" />
+    <Compile Include="Program.OrderWorkflow.cs" />
     <Compile Include="PurchasesPanel.cs" />
     <Compile Include="IPurchaseStatus.cs" />
     <Compile Include="Program.cs" />
