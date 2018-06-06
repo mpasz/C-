@@ -13,7 +13,7 @@ namespace Workflow
             var purchasePanel = new PurchasesPanel();
             purchasePanel.RegisterOrderStatus(new PurchaseOrderRequest()); 
             purchasePanel.RegisterOrderStatus(new PurchaseOrderStatus());
-            purchasePanel.RegisterOrderStatus(new PurchaseRequestStatus());
+           // purchasePanel.RegisterOrderStatus(new PurchaseRequestStatus());
             
 
             purchasePanel.Panel(new Order());
