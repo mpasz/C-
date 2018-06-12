@@ -1,33 +1,32 @@
-﻿namespace Bowling_2
+﻿using System;
+using System.Collections.Generic;
+
+namespace Bowling_2
 {
     public class Player
     {
-        public char [] Players { get; set; }
-        public int [] Points { get; set; }
-        private int sum = 0;
-        private char player;
+
+        //public string playerName;
+        public List<string> playerName = new List<string>();
+        public List<int> playerPoints = new List<int>();
+        //public int[] playerPoints;
+        public int sum;
 
         public Player()
         {
-
+            
         }
 
-        public int PointsSum()
-        {   
-            for (int i = 0; i < Players.Length; i++)
-            {
-                sum += Points[i];
-                //player = Players[i];
-            }
-            return sum; 
+        public void Sum()
+        {
+           
         }
 
-        //public char PlayerName()
-        //{
-        //    foreach (var player in Players)
-        //        return player;
 
-        //}
+        
+
+
+
     }
 }
 
