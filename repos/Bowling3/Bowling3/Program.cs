@@ -14,14 +14,12 @@ namespace Bowling3
         {
             var path = @"C:\Users\Michal\source\Bowling.txt";
             var linesCount = File.ReadAllLines(path).Count();
-
+            var playerProfile = new Player();
+            var gameResult = new Result();
             var sr = new StreamReader(path);
 
-            var playerProfile = new Player();
+            List<Player> ListOfPlayers = new List<Player>();
 
-            List <Player> ListOfPlayers = new List<Player>();
-
-            int[] points = new int[linesCount];
 
             for (int i = 0; i < linesCount / 2 ; i++)
             {
@@ -31,19 +29,24 @@ namespace Bowling3
             }
 
 
-            foreach (Player item in  ListOfPlayers)
+            for (int i = 0; i < ListOfPlayers.Count; i++)
             {
-                Console.WriteLine(item.PlayerName );
-
+                Console.WriteLine(gameResult.GameResult(ListOfPlayers[i]));
             }
 
-            for (int i = 0; i < playerProfile.Points.Length; i++)
-            {
-                Console.WriteLine(playerProfile.Points[i].ToString());
-            }
-            
+
+            //foreach (Player p in ListOfPlayers)
+            //{
+            //    Console.WriteLine(gameResult.GameResult(p));
+            //}
+
+            //for (int i = 0; i < playerProfile.Points.Length; i++)
+            //{
+            //    Console.WriteLine(playerProfile.Points[i].ToString());
+            //}
+
             //Console.WriteLine(playerProfile.ReturnPlayer());
-            
+
 
 
 
