@@ -27,7 +27,7 @@ namespace Bowling3
                             i++;
                         }
                         else if
-                           (i == player.Points.Length - 1)
+                           (i == player.Points.Length)
                         {
                             points += player.Points[i];
                         }
@@ -35,7 +35,7 @@ namespace Bowling3
                         else if
                           (player.Points[i] == 10)
                         {
-                            for (int j = i; j <= i+3 ; j++)
+                            for (int j = i; j <= i+1 ; j++)
                             {
                                 points += player.Points[j];
                             }
