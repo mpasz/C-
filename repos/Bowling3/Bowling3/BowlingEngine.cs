@@ -4,7 +4,7 @@
     {
         public int SumOfPoints(Player player)
         {
-            var points = 0;
+            var points = 0; ;
             var modulo = 0;
 
 
@@ -67,9 +67,6 @@
                         }
 
                     }
-
-
-
                     break;
              }
            

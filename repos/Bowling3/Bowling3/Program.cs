@@ -12,14 +12,14 @@ namespace Bowling3
     {
         static void Main(string[] args)
         {
-            var path = @"C:\Users\Michal\source\Bowling.txt";
+            //var path = @"C:\Users\Michal\source\Bowling.txt"; 
+            var path = @"C:\Users\mpasz\source\Bowling.txt";
             var linesCount = File.ReadAllLines(path).Count();
             var playerProfile = new Player();
             var gameResult = new Result();
             var sr = new StreamReader(path);
 
             List<Player> ListOfPlayers = new List<Player>();
-
 
             for (int i = 0; i < linesCount / 2 ; i++)
             {
@@ -28,28 +28,10 @@ namespace Bowling3
                 
             }
 
-
             for (int i = 0; i < ListOfPlayers.Count; i++)
             {
                 Console.WriteLine(gameResult.GameResult(ListOfPlayers[i]));
             }
-
-
-            //foreach (Player p in ListOfPlayers)
-            //{
-            //    Console.WriteLine(gameResult.GameResult(p));
-            //}
-
-            //for (int i = 0; i < playerProfile.Points.Length; i++)
-            //{
-            //    Console.WriteLine(playerProfile.Points[i].ToString());
-            //}
-
-            //Console.WriteLine(playerProfile.ReturnPlayer());
-
-
-
-
-        }
+       }
     }
 }
